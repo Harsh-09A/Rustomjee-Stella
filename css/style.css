@@ -125,10 +125,10 @@ html {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banner/banner3.webp");
+    content: url("../img/banner/banner1.webp");
   }
   .carousel-item .banner2 {
-    content: url("../img/banner/banner3.webp");
+    content: url("../img/banner/banner2.webp");
   }
 }
 
@@ -227,10 +227,14 @@ html {
 /* Amenities */
 
 .amenities_wrapper figure {
+  min-width: 100%;
   max-width: 100%;
   vertical-align: top;
   position: relative;
   overflow: hidden;
+}
+.amenities_wrapper figure img {
+  width: 100%;
 }
 
 .amenities_wrapper figure img:hover {
